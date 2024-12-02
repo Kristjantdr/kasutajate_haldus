@@ -2,7 +2,7 @@
 $lastname = Read-Host 'Enter your lastname'
 
 $username = $firstname.ToLower() + "." + $lastname.ToLower()
-$userPassword = ConvertTo-SecureString 'qwerty' -AsPlainText -Force
+$userPassword = ConvertTo-SecureString 'Parool1!' -AsPlainText -Force
 $fullname = $firstname + " " + $lastname
 $description = "Local account"
 
